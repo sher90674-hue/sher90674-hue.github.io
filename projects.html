@@ -1,15 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Projects | Ali Sher</title><link rel="stylesheet" href="style.css"></head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projects by Syed Ali Sher Kazmi">
+  <title>Projects | Syed Ali Sher Kazmi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
-<header class="navbar"><a class="logo" href="index.html">Ali Sher<span>.</span></a><nav><a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a href="certificates.html">Certificates</a><a href="contact.html">Contact</a></nav></header>
+<div class="page-transition"></div>
+
+<header class="navbar">
+  <a class="logo" href="index.html">Ali<span>.</span></a>
+  <button class="menu-toggle" aria-label="Open navigation">☰</button>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a class="active" href="projects.html">Projects</a>
+    <a href="experience.html">Experience</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
 <main class="page">
-<p class="eyebrow">My Work</p><h1>Projects</h1>
-<div class="project-grid">
-<article class="project-card"><div class="project-number">01</div><h2>Online Voting System</h2><p>A Java Swing desktop application designed to manage an election workflow. It includes voter, candidate, administrator and supervisor functionality, registration requests, approvals and election results.</p><div class="tags"><span>Java</span><span>OOP</span><span>Swing</span></div><a class="text-link" href="project-voting.html">View case study →</a></article>
-<article class="project-card"><div class="project-number">02</div><h2>Number Guessing Game</h2><p>A Java Swing desktop game developed during a Java internship. It uses difficulty levels and a temperature-style feedback system to show how close the player's guess is to the target.</p><div class="tags"><span>Java</span><span>Swing</span><span>GUI</span></div><a class="text-link" href="project-guessing.html">View case study →</a></article>
-<article class="project-card"><div class="project-number">03</div><h2>Library Book Manager</h2><p>A desktop application for managing books, members, issues, returns, loans and fines.</p><div class="tags"><span>Java</span><span>GUI</span><span>OOP</span></div><a class="text-link" href="project-library.html">View case study →</a></article></div>
+  <section class="page-head reveal">
+    <p class="eyebrow">Selected work</p>
+    <h1>Projects I've <span>built.</span></h1>
+    <p>
+      A selection of university, internship and personal projects.
+      Each project helped me practice programming, object-oriented design
+      and building usable desktop applications.
+    </p>
+  </section>
+
+  <!-- Online Voting System -->
+  <section class="project-showcase reveal">
+    <div class="project-heading">
+      <div>
+        <span class="tag">Java • Swing • OOP</span>
+        <h2>Online Voting System</h2>
+      </div>
+      <a class="project-github" href="https://github.com/sher90674-hue" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+    <p class="project-description">
+      A Java Swing desktop application designed to manage an online election.
+      The project includes separate workflows for administrators, voters and supervisors,
+      along with registration and voting-related screens.
+    </p>
+    <div class="screenshot-grid">
+      <figure><img src="assets/voting-admin.png" alt="Online Voting System admin screen"><figcaption>Admin dashboard</figcaption></figure>
+      <figure><img src="assets/voting-cast.png" alt="Online Voting System vote casting screen"><figcaption>Vote casting</figcaption></figure>
+      <figure><img src="assets/voting-register.png" alt="Online Voting System registration screen"><figcaption>Registration</figcaption></figure>
+      <figure><img src="assets/voting-supervisor.png" alt="Online Voting System supervisor screen"><figcaption>Supervisor panel</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- Number Guessing Game -->
+  <section class="project-showcase reveal">
+    <div class="project-heading">
+      <div>
+        <span class="tag">Java • Swing</span>
+        <h2>Number Guessing Game</h2>
+      </div>
+      <a class="project-github" href="https://github.com/sher90674-hue" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+    <p class="project-description">
+      A Java desktop game created during my Java internship. It includes a menu,
+      game interaction and result screens, with feedback based on how close the
+      player's guess is to the target.
+    </p>
+    <div class="screenshot-grid">
+      <figure><img src="assets/number-guessing-game.png" alt="Number Guessing Game main screen"><figcaption>Game screen</figcaption></figure>
+      <figure><img src="assets/number-guessing-menu.png" alt="Number Guessing Game menu"><figcaption>Game menu</figcaption></figure>
+      <figure><img src="assets/number-guessing-result.png" alt="Number Guessing Game result screen"><figcaption>Result screen</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- Library Book Manager -->
+  <section class="project-showcase reveal">
+    <div class="project-heading">
+      <div>
+        <span class="tag">Java • OOP</span>
+        <h2>Library Book Manager</h2>
+      </div>
+      <a class="project-github" href="https://github.com/sher90674-hue" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+    <p class="project-description">
+      A Java project focused on managing library information and practicing
+      object-oriented programming through screens for books, members,
+      loans and issue/return operations.
+    </p>
+    <div class="screenshot-grid">
+      <figure><img src="assets/library-books.png" alt="Library Book Manager books screen"><figcaption>Books</figcaption></figure>
+      <figure><img src="assets/library-issue-return.png" alt="Library Book Manager issue and return screen"><figcaption>Issue & return</figcaption></figure>
+      <figure><img src="assets/library-loans-fines.png" alt="Library Book Manager loans and fines screen"><figcaption>Loans & fines</figcaption></figure>
+      <figure><img src="assets/library-members.png" alt="Library Book Manager members screen"><figcaption>Members</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="future panel reveal">
+    <p class="eyebrow">Coming next</p>
+    <h2>More projects are on the way.</h2>
+    <p>
+      This space is reserved for future AI work, capstone projects and new experiments
+      as I continue building my skills.
+    </p>
+  </section>
 </main>
-<footer><p>© 2026 Syed Ali Sher Kazmi.</p></footer>
+
+<footer>
+  <p>© 2026 Syed Ali Sher Kazmi.</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
